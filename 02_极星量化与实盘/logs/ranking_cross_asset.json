@@ -1,0 +1,60 @@
+{
+  "schema_version": "v19.5_cross_asset_v1",
+  "updated_at": "2026-09-30 00:09:39",
+  "engine": "极星 19.5 原生双轨盈余插件",
+  "market_regime": "破位做空保障期 (TrendGate Regime 1)",
+  "items": [
+    {
+      "rank": 1,
+      "symbol": "SA701",
+      "name": "郑商所纯碱主力",
+      "sector": "商品衍生品 (郑商所)",
+      "asset_type": "futures",
+      "direction": "期货空头 (做空锁利)",
+      "last_price": 1014.0,
+      "tomorrow_expected_surplus_pct": 2.6,
+      "nale_lead_signal": -0.0818,
+      "risk_rating": "稳健对冲",
+      "rationale": "NALE 产业链时空时滞触发成本坍塌，EMA 空头排列破位"
+    },
+    {
+      "rank": 2,
+      "symbol": "300750",
+      "name": "宁德时代 (储能中枢)",
+      "sector": "新能源制造 (A股)",
+      "asset_type": "stock",
+      "direction": "现货做多",
+      "last_price": 195.5,
+      "tomorrow_expected_surplus_pct": 1.88,
+      "nale_lead_signal": 0.0,
+      "risk_rating": "高弹性",
+      "rationale": "全球动力与储能出海龙头，独立特质 Alpha 动量支撑"
+    },
+    {
+      "rank": 3,
+      "symbol": "FG701",
+      "name": "郑商所玻璃主力",
+      "sector": "商品衍生品 (郑商所)",
+      "asset_type": "futures",
+      "direction": "期货多头/跨期套利",
+      "last_price": 1100.0,
+      "tomorrow_expected_surplus_pct": 1.35,
+      "nale_lead_signal": -0.0491,
+      "risk_rating": "中风险",
+      "rationale": "深贴水基差收敛诉求，下游光伏组件刚性投料支撑"
+    },
+    {
+      "rank": 4,
+      "symbol": "601012",
+      "name": "隆基绿能 (光伏制造)",
+      "sector": "光伏制造业 (A股)",
+      "asset_type": "stock",
+      "direction": "观望/低配",
+      "last_price": 13.8,
+      "tomorrow_expected_surplus_pct": -0.65,
+      "nale_lead_signal": -0.12,
+      "risk_rating": "高风险 (内卷压制)",
+      "rationale": "主材价格处于现金成本线下方，大模型情绪打分持续低迷"
+    }
+  ]
+}

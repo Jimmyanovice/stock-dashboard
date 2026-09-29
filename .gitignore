@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Tool cache
+.pytest_cache/
+.agents/
+*.tmp
+*.log
+
+# Local UI automation / OCR temporary artifacts
+reports/_*
